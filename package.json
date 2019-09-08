@@ -1,0 +1,24 @@
+{
+  "name": "react-gif-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiankieltyka/react-gif-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiankieltyka/react-gif-search/issues"
+  },
+  "homepage": "https://github.com/damiankieltyka/react-gif-search#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
