@@ -17,8 +17,8 @@ App = React.createClass({
         this.getGif(searchingText, function(gif) {
             this.setState({
                 loading: false,
-                gif: gif,
-                searchingText: searchingText
+                gif,
+                searchingText
             });
         }.bind(this))
             .then(response => console.log('Contents: ' + response))
@@ -75,6 +75,6 @@ App = React.createClass({
                     sourceUrl={this.state.gif.sourceUrl}
                 />
             </div>
-        );
+        )
     }
 });
